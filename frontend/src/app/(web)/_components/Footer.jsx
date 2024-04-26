@@ -14,12 +14,12 @@ const Footer = () => {
                   </span>
                 </div>
 
-                <p className="mt-4 text-gray-500 text-justify animate__animated animate__fadeInUp sm:animate__animated animate__fadeInUp">
-                As the demand for digitalization and data 
-                integrity in the healthcare industry continues to grow, 
-                MedVaultConnect positions itself as a pioneering solution, 
-                setting new standards for prescription authentication and paving 
-                the way for a safer and more secure future in medication management.
+                <p className="mt-4 text-gray-500 sm:animate__animated animate__fadeInUp">
+                  As the demand for digitalization and data integrity in the
+                  healthcare industry continues to grow, MedVaultConnect
+                  positions itself as a pioneering solution, setting new
+                  standards for prescription authentication and paving the way
+                  for a safer and more secure future in medication management.
                 </p>
               </div>
             </div>
