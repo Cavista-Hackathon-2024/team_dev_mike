@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils"
 const Tabs = TabsPrimitive.Root
 
 const TabsList = React.forwardRef(({ className, ...props }, ref) => (
+
   <TabsPrimitive.List
     ref={ref}
     className={cn(

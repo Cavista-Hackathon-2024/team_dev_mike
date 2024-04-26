@@ -15,7 +15,7 @@ export function DoctorLoginForm() {
     <Card className="w-full max-w-md">
       <CardHeader>
         <CardTitle className="text-2xl">Doctor's Login</CardTitle>
-        <CardDescription>
+        <CardDescription className="animate__animated animate__fadeInUp">
           Enter your ID below to login to your account.
         </CardDescription>
       </CardHeader>

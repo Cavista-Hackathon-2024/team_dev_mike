@@ -14,7 +14,7 @@ const Footer = () => {
                   </span>
                 </div>
 
-                <p className="mt-4 text-gray-500 text-justify">
+                <p className="mt-4 text-gray-500 text-justify animate__animated animate__fadeInUp sm:animate__animated animate__fadeInUp">
                 As the demand for digitalization and data 
                 integrity in the healthcare industry continues to grow, 
                 MedVaultConnect positions itself as a pioneering solution, 
@@ -24,13 +24,13 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
+            <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end animate__animated animate__fadeInRight sm:animate__animated animate__fadeInUp">
               <form className="w-full">
                 <label for="UserEmail" className="sr-only">
                   Email
                 </label>
 
-                <div className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4">
+                <div className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4 ">
                   <input
                     type="email"
                     id="UserEmail"
@@ -45,14 +45,14 @@ const Footer = () => {
               </form>
             </div>
 
-            <div className="col-span-2 sm:col-span-1">
+            <div className="col-span-2 sm:col-span-1 animate__animated animate__fadeInUp ">
               <p className="font-medium text-gray-900">Services</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     1on1 Coaching
                   </a>
@@ -96,7 +96,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-span-2 sm:col-span-1">
+            <div className="col-span-2 sm:col-span-1 animate__animated animate__fadeInUp">
               <p className="font-medium text-gray-900">Company</p>
 
               <ul class="mt-6 space-y-4 text-sm">
@@ -120,7 +120,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-span-2 sm:col-span-1">
+            <div class="col-span-2 sm:col-span-1 animate__animated animate__fadeInUp">
               <p class="font-medium text-gray-900">Helpful Links</p>
 
               <ul class="mt-6 space-y-4 text-sm">
@@ -144,7 +144,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-span-2 sm:col-span-1">
+            <div class="col-span-2 sm:col-span-1 animate__animated animate__fadeInUp">
               <p class="font-medium text-gray-900">Legal</p>
 
               <ul class="mt-6 space-y-4 text-sm">
@@ -174,7 +174,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-span-2 sm:col-span-1">
+            <div class="col-span-2 sm:col-span-1 animate__animated animate__fadeInUp">
               <p class="font-medium text-gray-900">Downloads</p>
 
               <ul class="mt-6 space-y-4 text-sm">

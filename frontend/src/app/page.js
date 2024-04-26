@@ -1,10 +1,11 @@
 import Image from "next/image";
+import ScrollAnimation from "./ScrollAnimation";
 import HeroImage from "../../public/assets/login.jpg";
 
 export default function Home() {
   return (
     <main className="overflow-hidden bg-gray-200 sm:grid sm:grid-cols-2 h-screen items-center">
-      <div className="  p-8 md:p-12 lg:px-16 lg:py-2">
+      <div className="  p-8 md:p-12 lg:px-16 lg:py-2 animate__animated animate__fadeInLeft sm:animate__animated animate__fadeInUp">
         <div className="flex flex-col mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
           <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
             Prescription Precision: Making Healthcare Effortless
@@ -30,7 +31,7 @@ export default function Home() {
       <Image
         alt="Home page image"
         src={HeroImage}
-        className="h-56 w-full object-cover sm:h-full"
+        className="h-56 w-full object-cover sm:h-full animate__animated animate__fadeInRight sm:animate__animated animate__fadeInUp"
       />
     </main>
   );
