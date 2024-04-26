@@ -17,8 +17,12 @@
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-tabs": "^1.0.4",
+<<<<<<< HEAD
     "@radix-ui/react-toast": "^1.1.5",
     "axios": "^1.6.8",
+=======
+    "animate.css": "^4.1.1",
+>>>>>>> 7c88bc31fad68befe30333fb46a353a8b0986c6b
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.375.0",

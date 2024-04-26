@@ -6,7 +6,7 @@ import { CustomLoginTab } from "../_components/CustomLoginTab";
 
 const Page = () => {
   return (
-    <section className="flex h-[calc(100vh-65px)] items-center justify-center max-w-6xl mx-auto bg-gray-50">
+    <section className="flex h-[calc(100vh-65px)] items-center justify-center max-w-6xl mx-auto bg-gray-100">
       <CustomLoginTab />
     </section>
   );

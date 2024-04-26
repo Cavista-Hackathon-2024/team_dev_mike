@@ -16,7 +16,7 @@ const PatientLoginForm = () => {
     <Card className="w-full max-w-md">
       <CardHeader>
         <CardTitle className="text-2xl">Patient's Login</CardTitle>
-        <CardDescription>
+        <CardDescription className="animate__animated animate__fadeInUp">
           Enter your email below to login to your account.
         </CardDescription>
       </CardHeader>
@@ -36,7 +36,7 @@ const PatientLoginForm = () => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full">Sign in</Button>
+        <Button className="w-full bg-teal-600 hover:bg-teal-700">Sign in</Button>
       </CardFooter>
     </Card>
   );
