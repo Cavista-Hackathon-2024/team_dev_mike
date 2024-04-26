@@ -1,8 +1,8 @@
-# Doctor's Notes Authentication System
+# Doctor's Prescription Authentication System
 
 ## Overview
 
-This project aims to provide a secure authentication system for doctor's notes and prescriptions. It ensures that only authorized personnel can access and modify sensitive medical information, enhancing patient privacy and data integrity.
+This project aims to provide a secure authentication system for doctor's prescriptions. It ensures that only authorized personnel can access and modify sensitive medical information, enhancing patient privacy and data integrity.
 
 ## Features
 
