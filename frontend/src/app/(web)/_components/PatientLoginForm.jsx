@@ -13,7 +13,7 @@ import { Label } from "@/components/ui/label";
 
 const PatientLoginForm = () => {
   return (
-    <Card className="w-full max-w-md bg-gray-100">
+    <Card className="w-full max-w-md">
       <CardHeader>
         <CardTitle className="text-2xl">Patient's Login</CardTitle>
         <CardDescription>

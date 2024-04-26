@@ -12,7 +12,7 @@ import { Label } from "@/components/ui/label";
 
 export function DoctorLoginForm() {
   return (
-    <Card className="w-full max-w-md bg-gray-100">
+    <Card className="w-full max-w-md">
       <CardHeader>
         <CardTitle className="text-2xl">Doctor's Login</CardTitle>
         <CardDescription>
