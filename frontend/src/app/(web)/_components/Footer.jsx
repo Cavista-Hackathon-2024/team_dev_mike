@@ -14,7 +14,7 @@ const Footer = () => {
                   </span>
                 </div>
 
-                <p className="mt-4 text-gray-500">
+                <p className="mt-4 text-gray-500 text-justify">
                 As the demand for digitalization and data 
                 integrity in the healthcare industry continues to grow, 
                 MedVaultConnect positions itself as a pioneering solution, 
