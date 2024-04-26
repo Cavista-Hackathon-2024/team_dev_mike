@@ -30,7 +30,7 @@ export function DoctorLoginForm() {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full">Sign in</Button>
+        <Button className="w-full bg-teal-600 hover:bg-teal-700">Sign in</Button>
       </CardFooter>
     </Card>
   );
