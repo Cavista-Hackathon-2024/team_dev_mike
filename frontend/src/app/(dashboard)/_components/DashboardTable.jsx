@@ -24,8 +24,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
 const DashboardTable = () => {
@@ -34,11 +32,11 @@ const DashboardTable = () => {
       <CardHeader className="px-7 w-full">
         <div className="flex justify-between items-center w-full">
           <div>
-            <CardTitle className="text-teal-700">Prescriptions</CardTitle>
+            <CardTitle className="text-teal-700">All Prescriptions</CardTitle>
             <CardDescription>View recent prescriptions.</CardDescription>
           </div>
           <div>
-            <Button>Add new prescription</Button>
+            <Button>Ask AI</Button>
           </div>
         </div>
       </CardHeader>
@@ -46,7 +44,7 @@ const DashboardTable = () => {
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead>Patient</TableHead>
+              <TableHead>Doctor</TableHead>
               <TableHead className="hidden sm:table-cell">Medication</TableHead>
               <TableHead className="hidden sm:table-cell">Status</TableHead>
               <TableHead className="hidden md:table-cell">

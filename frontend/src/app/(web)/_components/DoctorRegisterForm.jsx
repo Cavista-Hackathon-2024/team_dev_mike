@@ -95,7 +95,7 @@ const DoctorRegisterForm = () => {
       <form onSubmit={form.handleSubmit(registerDoctor)}>
         <Card className="w-full max-w-xl">
           <CardHeader>
-            <CardTitle className="text-2xl">Register Doctor</CardTitle>
+            <CardTitle className="text-2xl">Doctor Registration</CardTitle>
             <CardDescription>
               Enter your correct details below to register as a doctor.
             </CardDescription>
