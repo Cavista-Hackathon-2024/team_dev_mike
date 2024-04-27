@@ -31,6 +31,8 @@ import { useForm } from "react-hook-form";
 import { toast } from "@/components/ui/use-toast";
 import axios from "axios";
 
+import { redirect } from "next/navigation";
+
 const DoctorRegisterForm = () => {
   // ZOD Schema
   const RegisterUserSchema = z.object({
@@ -79,8 +81,13 @@ const DoctorRegisterForm = () => {
     try {
       const response = await axios.post(`${baseUrl}register/doctor`, formData);
 
-      console.log("Response:", response.data);
-      console.log(error);
+      toast({
+        variant: "success",
+        title: response.data.message,
+        description: "There was a problem with your request.",
+      });
+
+      redirect("/doctor/login");
     } catch (error) {
       console.error(error);
     }
