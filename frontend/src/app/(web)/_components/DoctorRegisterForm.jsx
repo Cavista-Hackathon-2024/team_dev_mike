@@ -23,6 +23,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 // zod config
 import { z } from "zod";
@@ -31,9 +32,8 @@ import { useForm } from "react-hook-form";
 import { toast } from "@/components/ui/use-toast";
 import axios from "axios";
 
-import { redirect } from "next/navigation";
-
 const DoctorRegisterForm = () => {
+  const router = useRouter();
   // ZOD Schema
   const RegisterUserSchema = z.object({
     first_name: z.string().min(3, { message: "Name is required" }),
@@ -87,7 +87,7 @@ const DoctorRegisterForm = () => {
         description: "There was a problem with your request.",
       });
 
-      redirect("/doctor/login");
+      router.push("/doctor/dashboard");
     } catch (error) {
       console.error(error);
     }
