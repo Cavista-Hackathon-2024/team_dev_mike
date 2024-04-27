@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -6,6 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Link from "next/link";
 
 const PatientWelcomeCard = () => {
   return (
@@ -21,7 +24,9 @@ const PatientWelcomeCard = () => {
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Button>Ask AI</Button>
+        <Link href="https://landbot.online/v3/H-2203684-UDMR1FPXM2D8TGP0/index.html">
+          <Button>Ask AI</Button>
+        </Link>
       </CardFooter>
     </Card>
   );

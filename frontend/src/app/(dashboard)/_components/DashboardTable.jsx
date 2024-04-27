@@ -1,3 +1,5 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -25,6 +27,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const DashboardTable = () => {
   return (
@@ -36,7 +39,9 @@ const DashboardTable = () => {
             <CardDescription>View recent prescriptions.</CardDescription>
           </div>
           <div>
-            <Button>Ask AI</Button>
+            <Link href="https://landbot.online/v3/H-2203684-UDMR1FPXM2D8TGP0/index.html">
+              <Button variant="link">Ask AI</Button>
+            </Link>
           </div>
         </div>
       </CardHeader>
