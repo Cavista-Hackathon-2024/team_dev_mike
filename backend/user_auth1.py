@@ -44,15 +44,14 @@ def patient_login():
 @app.route('/register/patient', methods=['POST'])
 def patient_register():
     data = request.get_json()
-    username = data.get('username')
     password = data.get('password')
     first_name = data.get('first_name')
     last_name = data.get('last_name')
     email = data.get('email')
     phone_number = data.get('phone_number')
-    if Patient.query.filter_by(username=username).first():
-        return jsonify({'message': 'Username already exists'}), 400
-    new_patient = Patient(username=username, password=password, first_name=first_name,
+    if Patient.query.filter_by(email=email).first():
+        return jsonify({'message': 'Email already exists'}), 400
+    new_patient = Patient( password=password, first_name=first_name,
                           last_name=last_name, email=email, phone_number=phone_number)
     db.session.add(new_patient)
     db.session.commit()

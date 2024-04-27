@@ -21,8 +21,6 @@ import {
 } from "@/components/ui/form";
 
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 // zod config
@@ -35,7 +33,7 @@ import axios from "axios";
 const DoctorRegisterForm = () => {
   const router = useRouter();
   // ZOD Schema
-  const RegisterUserSchema = z.object({
+  const RegisterDoctorSchema = z.object({
     first_name: z.string().min(3, { message: "Name is required" }),
     last_name: z.string(),
     license_number: z.string(),
@@ -52,7 +50,7 @@ const DoctorRegisterForm = () => {
   });
 
   const form = useForm({
-    resolver: zodResolver(RegisterUserSchema),
+    resolver: zodResolver(RegisterDoctorSchema),
     defaultValues: {
       license_number: "",
       first_name: "",
@@ -84,7 +82,6 @@ const DoctorRegisterForm = () => {
       toast({
         variant: "success",
         title: response.data.message,
-        description: "There was a problem with your request.",
       });
 
       router.push("/doctor/dashboard");
